@@ -6,4 +6,11 @@ alert(`Il tuo dado è : ${userDice}`);
 const botDice = Math.floor(Math.random()*6 + 1);
 alert(`Il dado dell'avversario è : ${botDice}`)
 //Confrontare i due numeri
-//Comunicare il vincitore
+if (userDice === botDice){
+  alert("Pareggio!")
+}else if(userDice > botDice)
+{
+  alert("Complimenti! Hai vinto.")
+}else{
+  alert("Mi dispiace, hai perso.")
+}
