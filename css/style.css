@@ -1,0 +1,8 @@
+.my_container{
+  width: 600px;
+  margin:auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  padding: 50px 100px;
+}
